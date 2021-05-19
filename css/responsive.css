@@ -1,0 +1,98 @@
+@media only screen and (max-width: 900px) {
+  .cover{
+    flex-direction: column;
+    flex-flow: column-reverse;
+    height: initial;
+  }
+  .card{
+    margin: 60px 0px;
+  }
+  
+  .services > div{
+    flex-direction: column;
+  }
+  .service_left > .service_text, .service_right > .service_text{
+    padding: 0px;
+  }
+  .service_right{
+    flex-flow: column-reverse !important;
+  }
+  .services .service_img{
+    margin-top: 30px;
+  }
+  
+  .about{
+    flex-direction: column;
+    flex-flow: column-reverse;
+  }
+  .about .service_img{
+    margin-bottom: 40px;
+  }
+  
+  .contact{
+    flex-direction: column;
+  }
+  .map{
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .header > div > a{
+    font-size: 8pt;
+    margin-right: 0px;
+    padding: 10px;
+  }
+  .header > div{
+    margin: 0px;
+  }
+  .header > a > img{
+    width: 30px;
+  }
+  .header{
+    padding: 10px 0px;
+    flex-direction: column;
+  }
+  
+  .card{
+    width: 100%;
+    margin: 60px 30px;
+  }
+  .card > h3{
+    font-size: 14pt;
+  }
+  .card > p{
+    font-size: 12pt;
+  }
+  
+  .title > div{
+    font-size: 14pt;
+    text-align: center;
+  }
+  .title > span{
+    width: 80px;
+  }
+  
+  .services, .about{
+    padding: 0px 40px;
+  }
+  .service_text > div{
+    font-size: 14pt;
+  }
+  .service_text > p{
+    font-size: 12pt;
+  }
+  
+  .info > div{
+    min-width: 100%;
+  }
+  .info > div > div:last-child{
+    font-size: 10pt;
+  }
+  .info > div > div > img{
+    width: 20px;
+  }
+  .contact iframe{
+    width: 100%;
+  }
+}
